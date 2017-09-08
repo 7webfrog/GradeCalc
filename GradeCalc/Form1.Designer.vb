@@ -22,10 +22,10 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.txtboxS1 = New System.Windows.Forms.TextBox()
-        Me.txtboxS2 = New System.Windows.Forms.TextBox()
-        Me.lblS1 = New System.Windows.Forms.Label()
-        Me.lblS2 = New System.Windows.Forms.Label()
+        Me.txtboxGP1 = New System.Windows.Forms.TextBox()
+        Me.txtboxGP2 = New System.Windows.Forms.TextBox()
+        Me.lblGP1 = New System.Windows.Forms.Label()
+        Me.lblGP2 = New System.Windows.Forms.Label()
         Me.txtboxE1 = New System.Windows.Forms.TextBox()
         Me.lblE1 = New System.Windows.Forms.Label()
         Me.BtnExe = New System.Windows.Forms.Button()
@@ -33,41 +33,41 @@ Partial Class Form1
         Me.txtboxOut = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
-        'txtboxS1
+        'txtboxGP1
         '
-        Me.txtboxS1.Location = New System.Drawing.Point(130, 17)
-        Me.txtboxS1.Name = "txtboxS1"
-        Me.txtboxS1.Size = New System.Drawing.Size(100, 22)
-        Me.txtboxS1.TabIndex = 0
+        Me.txtboxGP1.Location = New System.Drawing.Point(136, 17)
+        Me.txtboxGP1.Name = "txtboxGP1"
+        Me.txtboxGP1.Size = New System.Drawing.Size(100, 22)
+        Me.txtboxGP1.TabIndex = 0
         '
-        'txtboxS2
+        'txtboxGP2
         '
-        Me.txtboxS2.Location = New System.Drawing.Point(130, 47)
-        Me.txtboxS2.Name = "txtboxS2"
-        Me.txtboxS2.Size = New System.Drawing.Size(100, 22)
-        Me.txtboxS2.TabIndex = 1
+        Me.txtboxGP2.Location = New System.Drawing.Point(136, 47)
+        Me.txtboxGP2.Name = "txtboxGP2"
+        Me.txtboxGP2.Size = New System.Drawing.Size(100, 22)
+        Me.txtboxGP2.TabIndex = 1
         '
-        'lblS1
+        'lblGP1
         '
-        Me.lblS1.AutoSize = True
-        Me.lblS1.Location = New System.Drawing.Point(12, 19)
-        Me.lblS1.Name = "lblS1"
-        Me.lblS1.Size = New System.Drawing.Size(111, 17)
-        Me.lblS1.TabIndex = 2
-        Me.lblS1.Text = "Enter S1 Grade:"
+        Me.lblGP1.AutoSize = True
+        Me.lblGP1.Location = New System.Drawing.Point(12, 19)
+        Me.lblGP1.Name = "lblGP1"
+        Me.lblGP1.Size = New System.Drawing.Size(122, 17)
+        Me.lblGP1.TabIndex = 2
+        Me.lblGP1.Text = "Enter GP1 Grade:"
         '
-        'lblS2
+        'lblGP2
         '
-        Me.lblS2.AutoSize = True
-        Me.lblS2.Location = New System.Drawing.Point(12, 49)
-        Me.lblS2.Name = "lblS2"
-        Me.lblS2.Size = New System.Drawing.Size(111, 17)
-        Me.lblS2.TabIndex = 3
-        Me.lblS2.Text = "Enter S2 Grade:"
+        Me.lblGP2.AutoSize = True
+        Me.lblGP2.Location = New System.Drawing.Point(12, 49)
+        Me.lblGP2.Name = "lblGP2"
+        Me.lblGP2.Size = New System.Drawing.Size(122, 17)
+        Me.lblGP2.TabIndex = 3
+        Me.lblGP2.Text = "Enter GP2 Grade:"
         '
         'txtboxE1
         '
-        Me.txtboxE1.Location = New System.Drawing.Point(130, 77)
+        Me.txtboxE1.Location = New System.Drawing.Point(136, 77)
         Me.txtboxE1.Name = "txtboxE1"
         Me.txtboxE1.Size = New System.Drawing.Size(100, 22)
         Me.txtboxE1.TabIndex = 4
@@ -83,7 +83,7 @@ Partial Class Form1
         '
         'BtnExe
         '
-        Me.BtnExe.Location = New System.Drawing.Point(130, 106)
+        Me.BtnExe.Location = New System.Drawing.Point(136, 106)
         Me.BtnExe.Name = "BtnExe"
         Me.BtnExe.Size = New System.Drawing.Size(100, 25)
         Me.BtnExe.TabIndex = 6
@@ -93,16 +93,16 @@ Partial Class Form1
         'lblOut
         '
         Me.lblOut.AutoSize = True
-        Me.lblOut.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.5!)
+        Me.lblOut.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!)
         Me.lblOut.Location = New System.Drawing.Point(12, 156)
         Me.lblOut.Name = "lblOut"
-        Me.lblOut.Size = New System.Drawing.Size(111, 16)
+        Me.lblOut.Size = New System.Drawing.Size(120, 17)
         Me.lblOut.TabIndex = 7
         Me.lblOut.Text = "Your F1 Grade is:"
         '
         'txtboxOut
         '
-        Me.txtboxOut.Location = New System.Drawing.Point(130, 154)
+        Me.txtboxOut.Location = New System.Drawing.Point(136, 154)
         Me.txtboxOut.Name = "txtboxOut"
         Me.txtboxOut.ReadOnly = True
         Me.txtboxOut.Size = New System.Drawing.Size(100, 22)
@@ -118,10 +118,10 @@ Partial Class Form1
         Me.Controls.Add(Me.BtnExe)
         Me.Controls.Add(Me.lblE1)
         Me.Controls.Add(Me.txtboxE1)
-        Me.Controls.Add(Me.lblS2)
-        Me.Controls.Add(Me.lblS1)
-        Me.Controls.Add(Me.txtboxS2)
-        Me.Controls.Add(Me.txtboxS1)
+        Me.Controls.Add(Me.lblGP2)
+        Me.Controls.Add(Me.lblGP1)
+        Me.Controls.Add(Me.txtboxGP2)
+        Me.Controls.Add(Me.txtboxGP1)
         Me.Name = "Form1"
         Me.Text = "Grade Calculator"
         Me.ResumeLayout(False)
@@ -129,10 +129,10 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents txtboxS1 As TextBox
-    Friend WithEvents txtboxS2 As TextBox
-    Friend WithEvents lblS1 As Label
-    Friend WithEvents lblS2 As Label
+    Friend WithEvents txtboxGP1 As TextBox
+    Friend WithEvents txtboxGP2 As TextBox
+    Friend WithEvents lblGP1 As Label
+    Friend WithEvents lblGP2 As Label
     Friend WithEvents txtboxE1 As TextBox
     Friend WithEvents lblE1 As Label
     Friend WithEvents BtnExe As Button
