@@ -12,4 +12,8 @@
         Dim F1 As Decimal = GP1A + GP2A + E1A
         txtboxOutF1.Text = F1
     End Sub
+
+    Private Sub BtnExeE1_Click(sender As Object, e As EventArgs) Handles BtnExeE1.Click
+
+    End Sub
 End Class
