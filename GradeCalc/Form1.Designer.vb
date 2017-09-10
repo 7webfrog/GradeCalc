@@ -251,7 +251,15 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1116, 526)
-        Me.Controls.Add(Me.TabControl1)
+        Me.Controls.Add(Me.txtboxOut)
+        Me.Controls.Add(Me.lblOut)
+        Me.Controls.Add(Me.BtnExe)
+        Me.Controls.Add(Me.lblE1)
+        Me.Controls.Add(Me.txtboxE1)
+        Me.Controls.Add(Me.lblGP2)
+        Me.Controls.Add(Me.lblGP1)
+        Me.Controls.Add(Me.txtboxGP2)
+        Me.Controls.Add(Me.txtboxGP1)
         Me.Name = "Form1"
         Me.Text = "Grade Calculator"
         Me.TabControl1.ResumeLayout(False)
@@ -260,6 +268,7 @@ Partial Class Form1
         Me.CalcE1.ResumeLayout(False)
         Me.CalcE1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
