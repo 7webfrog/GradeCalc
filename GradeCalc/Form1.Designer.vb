@@ -34,8 +34,18 @@ Partial Class Form1
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.CalcF1 = New System.Windows.Forms.TabPage()
         Me.CalcE1 = New System.Windows.Forms.TabPage()
+        Me.txtboxE1E1 = New System.Windows.Forms.TextBox()
+        Me.lblE1E1 = New System.Windows.Forms.Label()
+        Me.txtboxGP1E1 = New System.Windows.Forms.TextBox()
+        Me.BtnExeE1 = New System.Windows.Forms.Button()
+        Me.txtboxGP2E1 = New System.Windows.Forms.TextBox()
+        Me.lblF1E1 = New System.Windows.Forms.Label()
+        Me.lblGP1E1 = New System.Windows.Forms.Label()
+        Me.txtboxF1E1 = New System.Windows.Forms.TextBox()
+        Me.lblGP2E1 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.CalcF1.SuspendLayout()
+        Me.CalcE1.SuspendLayout()
         Me.SuspendLayout()
         '
         'txtboxGP1F1
@@ -144,6 +154,15 @@ Partial Class Form1
         '
         'CalcE1
         '
+        Me.CalcE1.Controls.Add(Me.txtboxE1E1)
+        Me.CalcE1.Controls.Add(Me.lblE1E1)
+        Me.CalcE1.Controls.Add(Me.txtboxGP1E1)
+        Me.CalcE1.Controls.Add(Me.BtnExeE1)
+        Me.CalcE1.Controls.Add(Me.txtboxGP2E1)
+        Me.CalcE1.Controls.Add(Me.lblF1E1)
+        Me.CalcE1.Controls.Add(Me.lblGP1E1)
+        Me.CalcE1.Controls.Add(Me.txtboxF1E1)
+        Me.CalcE1.Controls.Add(Me.lblGP2E1)
         Me.CalcE1.Location = New System.Drawing.Point(4, 25)
         Me.CalcE1.Name = "CalcE1"
         Me.CalcE1.Padding = New System.Windows.Forms.Padding(3)
@@ -152,18 +171,104 @@ Partial Class Form1
         Me.CalcE1.Text = "Calculate E1"
         Me.CalcE1.UseVisualStyleBackColor = True
         '
+        'txtboxE1E1
+        '
+        Me.txtboxE1E1.Location = New System.Drawing.Point(136, 154)
+        Me.txtboxE1E1.Name = "txtboxE1E1"
+        Me.txtboxE1E1.ReadOnly = True
+        Me.txtboxE1E1.Size = New System.Drawing.Size(100, 22)
+        Me.txtboxE1E1.TabIndex = 17
+        '
+        'lblE1E1
+        '
+        Me.lblE1E1.AutoSize = True
+        Me.lblE1E1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!)
+        Me.lblE1E1.Location = New System.Drawing.Point(12, 156)
+        Me.lblE1E1.Name = "lblE1E1"
+        Me.lblE1E1.Size = New System.Drawing.Size(121, 17)
+        Me.lblE1E1.TabIndex = 16
+        Me.lblE1E1.Text = "Your E1 Grade is:"
+        '
+        'txtboxGP1E1
+        '
+        Me.txtboxGP1E1.Location = New System.Drawing.Point(136, 17)
+        Me.txtboxGP1E1.Name = "txtboxGP1E1"
+        Me.txtboxGP1E1.Size = New System.Drawing.Size(100, 22)
+        Me.txtboxGP1E1.TabIndex = 9
+        '
+        'BtnExeE1
+        '
+        Me.BtnExeE1.Location = New System.Drawing.Point(136, 106)
+        Me.BtnExeE1.Name = "BtnExeE1"
+        Me.BtnExeE1.Size = New System.Drawing.Size(100, 25)
+        Me.BtnExeE1.TabIndex = 15
+        Me.BtnExeE1.Text = "Submit"
+        Me.BtnExeE1.UseVisualStyleBackColor = True
+        '
+        'txtboxGP2E1
+        '
+        Me.txtboxGP2E1.Location = New System.Drawing.Point(136, 47)
+        Me.txtboxGP2E1.Name = "txtboxGP2E1"
+        Me.txtboxGP2E1.Size = New System.Drawing.Size(100, 22)
+        Me.txtboxGP2E1.TabIndex = 10
+        '
+        'lblF1E1
+        '
+        Me.lblF1E1.AutoSize = True
+        Me.lblF1E1.Location = New System.Drawing.Point(12, 79)
+        Me.lblF1E1.Name = "lblF1E1"
+        Me.lblF1E1.Size = New System.Drawing.Size(110, 17)
+        Me.lblF1E1.TabIndex = 14
+        Me.lblF1E1.Text = "Enter F1 Grade:"
+        '
+        'lblGP1E1
+        '
+        Me.lblGP1E1.AutoSize = True
+        Me.lblGP1E1.Location = New System.Drawing.Point(12, 19)
+        Me.lblGP1E1.Name = "lblGP1E1"
+        Me.lblGP1E1.Size = New System.Drawing.Size(122, 17)
+        Me.lblGP1E1.TabIndex = 11
+        Me.lblGP1E1.Text = "Enter GP1 Grade:"
+        '
+        'txtboxF1E1
+        '
+        Me.txtboxF1E1.Location = New System.Drawing.Point(136, 77)
+        Me.txtboxF1E1.Name = "txtboxF1E1"
+        Me.txtboxF1E1.Size = New System.Drawing.Size(100, 22)
+        Me.txtboxF1E1.TabIndex = 13
+        '
+        'lblGP2E1
+        '
+        Me.lblGP2E1.AutoSize = True
+        Me.lblGP2E1.Location = New System.Drawing.Point(12, 49)
+        Me.lblGP2E1.Name = "lblGP2E1"
+        Me.lblGP2E1.Size = New System.Drawing.Size(122, 17)
+        Me.lblGP2E1.TabIndex = 12
+        Me.lblGP2E1.Text = "Enter GP2 Grade:"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1116, 526)
-        Me.Controls.Add(Me.TabControl1)
+        Me.Controls.Add(Me.txtboxOutF1)
+        Me.Controls.Add(Me.lblOutF1)
+        Me.Controls.Add(Me.BtnExeF1)
+        Me.Controls.Add(Me.lblE1F1)
+        Me.Controls.Add(Me.txtboxE1F1)
+        Me.Controls.Add(Me.lblGP2F1)
+        Me.Controls.Add(Me.lblGP1F1)
+        Me.Controls.Add(Me.txtboxGP2F1)
+        Me.Controls.Add(Me.txtboxGP1F1)
         Me.Name = "Form1"
         Me.Text = "Grade Calculator"
         Me.TabControl1.ResumeLayout(False)
         Me.CalcF1.ResumeLayout(False)
         Me.CalcF1.PerformLayout()
+        Me.CalcE1.ResumeLayout(False)
+        Me.CalcE1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -179,4 +284,13 @@ Partial Class Form1
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents CalcF1 As TabPage
     Friend WithEvents CalcE1 As TabPage
+    Friend WithEvents txtboxE1E1 As TextBox
+    Friend WithEvents lblE1E1 As Label
+    Friend WithEvents txtboxGP1E1 As TextBox
+    Friend WithEvents BtnExeE1 As Button
+    Friend WithEvents txtboxGP2E1 As TextBox
+    Friend WithEvents lblF1E1 As Label
+    Friend WithEvents lblGP1E1 As Label
+    Friend WithEvents txtboxF1E1 As TextBox
+    Friend WithEvents lblGP2E1 As Label
 End Class
