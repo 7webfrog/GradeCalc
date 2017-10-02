@@ -138,16 +138,4 @@ Partial Class Form1
     Friend WithEvents BtnExeF1 As Button
     Friend WithEvents lblOutF1 As Label
     Friend WithEvents txtboxOutF1 As TextBox
-    Friend WithEvents TabControl1 As TabControl
-    Friend WithEvents CalcF1 As TabPage
-    Friend WithEvents CalcE1 As TabPage
-    Friend WithEvents txtboxE1E1 As TextBox
-    Friend WithEvents lblE1E1 As Label
-    Friend WithEvents txtboxGP1E1 As TextBox
-    Friend WithEvents BtnExeE1 As Button
-    Friend WithEvents txtboxGP2E1 As TextBox
-    Friend WithEvents lblF1E1 As Label
-    Friend WithEvents lblGP1E1 As Label
-    Friend WithEvents txtboxF1E1 As TextBox
-    Friend WithEvents lblGP2E1 As Label
 End Class
