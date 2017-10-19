@@ -42,7 +42,7 @@ Partial Class InitForm
         Me.btnExam.Name = "btnExam"
         Me.btnExam.Size = New System.Drawing.Size(83, 37)
         Me.btnExam.TabIndex = 1
-        Me.btnExam.Text = "ExamGrade"
+        Me.btnExam.Text = "Exam Grade"
         Me.btnExam.UseVisualStyleBackColor = True
         '
         'Label1

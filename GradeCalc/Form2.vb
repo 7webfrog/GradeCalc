@@ -19,4 +19,8 @@
         dblE1 = (dblF1 - dblGP1W - dblGP2W) * 5
         txtOut.Text = dblE1
     End Sub
+
+    Private Sub Form2_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        Application.Exit()
+    End Sub
 End Class

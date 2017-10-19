@@ -19,4 +19,8 @@
         dblF1 = dblGP1W + dblGP2W + dblE1W
         txtOut.Text = dblF1
     End Sub
+
+    Private Sub Form1_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        Application.Exit()
+    End Sub
 End Class
