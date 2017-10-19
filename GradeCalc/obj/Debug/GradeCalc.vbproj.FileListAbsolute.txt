@@ -1,0 +1,14 @@
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\bin\Debug\GradeCalc.exe.config
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\bin\Debug\GradeCalc.exe
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\bin\Debug\GradeCalc.pdb
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\bin\Debug\GradeCalc.xml
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\obj\Debug\GradeCalc.vbprojResolveAssemblyReference.cache
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\obj\Debug\GradeCalc.Form1.resources
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\obj\Debug\GradeCalc.Form2.resources
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\obj\Debug\GradeCalc.Resources.resources
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\obj\Debug\GradeCalc.vbproj.GenerateResource.Cache
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\obj\Debug\GradeCalc.vbproj.CoreCompileInputs.cache
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\obj\Debug\GradeCalc.exe
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\obj\Debug\GradeCalc.xml
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\obj\Debug\GradeCalc.pdb
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\obj\Debug\GradeCalc.InitForm.resources
