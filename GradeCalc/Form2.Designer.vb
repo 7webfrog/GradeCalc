@@ -46,6 +46,7 @@ Partial Class Form2
         Me.txtOut.ReadOnly = True
         Me.txtOut.Size = New System.Drawing.Size(75, 20)
         Me.txtOut.TabIndex = 7
+        Me.txtOut.TabStop = False
         '
         'lblOutE1
         '
