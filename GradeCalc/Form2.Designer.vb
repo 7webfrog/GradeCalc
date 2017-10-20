@@ -35,7 +35,7 @@ Partial Class Form2
         Me.txtGP1W = New System.Windows.Forms.TextBox()
         Me.txtGP2W = New System.Windows.Forms.TextBox()
         Me.txtE1W = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblGrade = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'txtOut
@@ -153,21 +153,21 @@ Partial Class Form2
         Me.txtE1W.Size = New System.Drawing.Size(86, 20)
         Me.txtE1W.TabIndex = 5
         '
-        'Label1
+        'lblGrade
         '
-        Me.Label1.Location = New System.Drawing.Point(173, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(75, 16)
-        Me.Label1.TabIndex = 12
-        Me.Label1.Text = "Grade"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblGrade.Location = New System.Drawing.Point(173, 9)
+        Me.lblGrade.Name = "lblGrade"
+        Me.lblGrade.Size = New System.Drawing.Size(75, 16)
+        Me.lblGrade.TabIndex = 12
+        Me.lblGrade.Text = "Grade"
+        Me.lblGrade.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(384, 261)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblGrade)
         Me.Controls.Add(Me.txtE1W)
         Me.Controls.Add(Me.txtGP2W)
         Me.Controls.Add(Me.txtGP1W)
@@ -201,5 +201,5 @@ Partial Class Form2
     Friend WithEvents txtGP1W As TextBox
     Friend WithEvents txtGP2W As TextBox
     Friend WithEvents txtE1W As TextBox
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblGrade As Label
 End Class

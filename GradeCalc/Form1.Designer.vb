@@ -31,7 +31,7 @@ Partial Class Form1
         Me.btnSubmit = New System.Windows.Forms.Button()
         Me.lblOut = New System.Windows.Forms.Label()
         Me.txtOut = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblGrade = New System.Windows.Forms.Label()
         Me.lblWeight = New System.Windows.Forms.Label()
         Me.txtGP1W = New System.Windows.Forms.TextBox()
         Me.txtGP2W = New System.Windows.Forms.TextBox()
@@ -122,14 +122,14 @@ Partial Class Form1
         Me.txtOut.Size = New System.Drawing.Size(75, 20)
         Me.txtOut.TabIndex = 7
         '
-        'Label1
+        'lblGrade
         '
-        Me.Label1.Location = New System.Drawing.Point(102, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(75, 16)
-        Me.Label1.TabIndex = 12
-        Me.Label1.Text = "Grade"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblGrade.Location = New System.Drawing.Point(102, 9)
+        Me.lblGrade.Name = "lblGrade"
+        Me.lblGrade.Size = New System.Drawing.Size(75, 16)
+        Me.lblGrade.TabIndex = 12
+        Me.lblGrade.Text = "Grade"
+        Me.lblGrade.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblWeight
         '
@@ -170,7 +170,7 @@ Partial Class Form1
         Me.Controls.Add(Me.txtE1W)
         Me.Controls.Add(Me.txtGP2W)
         Me.Controls.Add(Me.txtGP1W)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblGrade)
         Me.Controls.Add(Me.lblWeight)
         Me.Controls.Add(Me.txtOut)
         Me.Controls.Add(Me.lblOut)
@@ -198,7 +198,7 @@ Partial Class Form1
     Friend WithEvents btnSubmit As Button
     Friend WithEvents lblOut As Label
     Friend WithEvents txtOut As TextBox
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblGrade As Label
     Friend WithEvents lblWeight As Label
     Friend WithEvents txtGP1W As TextBox
     Friend WithEvents txtGP2W As TextBox
