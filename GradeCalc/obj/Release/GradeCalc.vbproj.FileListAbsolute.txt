@@ -11,5 +11,4 @@ C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\o
 C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\obj\Release\GradeCalc.exe
 C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\obj\Release\GradeCalc.xml
 C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\obj\Release\GradeCalc.pdb
-C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\bin\Release\GradeCalc.exe.CodeAnalysisLog.xml
-C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\bin\Release\GradeCalc.exe.lastcodeanalysissucceeded
+C:\Users\ryan.lutzs07\source\repos\GradeCalc-master\GradeCalc-master\GradeCalc\obj\Release\GradeCalc.vbprojResolveAssemblyReference.cache
