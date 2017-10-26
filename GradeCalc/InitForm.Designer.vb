@@ -29,18 +29,18 @@ Partial Class InitForm
         '
         'btnFinal
         '
-        Me.btnFinal.Location = New System.Drawing.Point(59, 136)
+        Me.btnFinal.Location = New System.Drawing.Point(62, 136)
         Me.btnFinal.Name = "btnFinal"
-        Me.btnFinal.Size = New System.Drawing.Size(85, 37)
+        Me.btnFinal.Size = New System.Drawing.Size(75, 37)
         Me.btnFinal.TabIndex = 0
         Me.btnFinal.Text = "Final Grade"
         Me.btnFinal.UseVisualStyleBackColor = True
         '
         'btnExam
         '
-        Me.btnExam.Location = New System.Drawing.Point(150, 136)
+        Me.btnExam.Location = New System.Drawing.Point(143, 136)
         Me.btnExam.Name = "btnExam"
-        Me.btnExam.Size = New System.Drawing.Size(85, 37)
+        Me.btnExam.Size = New System.Drawing.Size(75, 37)
         Me.btnExam.TabIndex = 1
         Me.btnExam.Text = "Exam Grade"
         Me.btnExam.UseVisualStyleBackColor = True

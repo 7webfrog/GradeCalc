@@ -160,7 +160,7 @@ Partial Class Form2
         Me.lblGrade.Name = "lblGrade"
         Me.lblGrade.Size = New System.Drawing.Size(75, 16)
         Me.lblGrade.TabIndex = 12
-        Me.lblGrade.Text = "Grade"
+        Me.lblGrade.Text = "Grade (w/o %)"
         Me.lblGrade.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form2

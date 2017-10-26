@@ -43,7 +43,7 @@ Partial Class Form1
         Me.txtGP1.Location = New System.Drawing.Point(102, 27)
         Me.txtGP1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtGP1.Name = "txtGP1"
-        Me.txtGP1.Size = New System.Drawing.Size(75, 20)
+        Me.txtGP1.Size = New System.Drawing.Size(80, 20)
         Me.txtGP1.TabIndex = 0
         '
         'txtGP2
@@ -51,7 +51,7 @@ Partial Class Form1
         Me.txtGP2.Location = New System.Drawing.Point(102, 52)
         Me.txtGP2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtGP2.Name = "txtGP2"
-        Me.txtGP2.Size = New System.Drawing.Size(75, 20)
+        Me.txtGP2.Size = New System.Drawing.Size(80, 20)
         Me.txtGP2.TabIndex = 2
         '
         'lblGP1
@@ -79,7 +79,7 @@ Partial Class Form1
         Me.txtE1.Location = New System.Drawing.Point(102, 76)
         Me.txtE1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtE1.Name = "txtE1"
-        Me.txtE1.Size = New System.Drawing.Size(75, 20)
+        Me.txtE1.Size = New System.Drawing.Size(80, 20)
         Me.txtE1.TabIndex = 4
         '
         'lblE1
@@ -125,17 +125,18 @@ Partial Class Form1
         '
         'lblGrade
         '
+        Me.lblGrade.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.lblGrade.Location = New System.Drawing.Point(102, 9)
         Me.lblGrade.Name = "lblGrade"
-        Me.lblGrade.Size = New System.Drawing.Size(75, 16)
+        Me.lblGrade.Size = New System.Drawing.Size(80, 16)
         Me.lblGrade.TabIndex = 12
-        Me.lblGrade.Text = "Grade"
+        Me.lblGrade.Text = "Grade (w/o %)"
         Me.lblGrade.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblWeight
         '
         Me.lblWeight.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.lblWeight.Location = New System.Drawing.Point(182, 9)
+        Me.lblWeight.Location = New System.Drawing.Point(187, 9)
         Me.lblWeight.Name = "lblWeight"
         Me.lblWeight.Size = New System.Drawing.Size(86, 15)
         Me.lblWeight.TabIndex = 13
@@ -144,21 +145,21 @@ Partial Class Form1
         '
         'txtGP1W
         '
-        Me.txtGP1W.Location = New System.Drawing.Point(182, 27)
+        Me.txtGP1W.Location = New System.Drawing.Point(187, 27)
         Me.txtGP1W.Name = "txtGP1W"
         Me.txtGP1W.Size = New System.Drawing.Size(86, 20)
         Me.txtGP1W.TabIndex = 1
         '
         'txtGP2W
         '
-        Me.txtGP2W.Location = New System.Drawing.Point(182, 52)
+        Me.txtGP2W.Location = New System.Drawing.Point(187, 52)
         Me.txtGP2W.Name = "txtGP2W"
         Me.txtGP2W.Size = New System.Drawing.Size(86, 20)
         Me.txtGP2W.TabIndex = 3
         '
         'txtE1W
         '
-        Me.txtE1W.Location = New System.Drawing.Point(182, 76)
+        Me.txtE1W.Location = New System.Drawing.Point(187, 76)
         Me.txtE1W.Name = "txtE1W"
         Me.txtE1W.Size = New System.Drawing.Size(86, 20)
         Me.txtE1W.TabIndex = 5
