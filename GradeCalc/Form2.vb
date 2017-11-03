@@ -13,11 +13,11 @@
             dblGP2 = Convert.ToDouble(txtGP2.Text)
             dblF1 = Convert.ToDouble(txtF1.Text)
         Catch ex As Exception 'If a conversion fails
-            MessageBox.Show("Please enter a grade between 0 and 100") 'Tell user their mistake
+            MessageBox.Show("Please enter a grade between 0 and 100 in ALL grade fields.") 'Tell user their mistake
             Exit Sub 'Exit
         End Try
         If (dblGP1 < 0 Or dblGP1 > 100) Or (dblGP2 < 0 Or dblGP2 > 100) Or (dblF1 < 0 Or dblF1 > 100) Then 'Grade data validation check to see if input is within grade range
-            MessageBox.Show("Please enter a grade between 0 and 100") 'Tell user their mistake
+            MessageBox.Show("Please enter a grade between 0 and 100 in ALL grade fields.") 'Tell user their mistake
             Exit Sub 'Exit
         End If
         Try 'Try to convert weight textboxes to double
@@ -25,11 +25,11 @@
             dblGP2W = Convert.ToDouble(txtGP2W.Text)
             dblE1W = Convert.ToDouble(txtE1W.Text)
         Catch ex As Exception 'If a conversion fails
-            MessageBox.Show("Please enter a weight between 0 and 1") 'Tell user their mistake
+            MessageBox.Show("Please enter a weight between 0 and 1 in ALL weight fields.") 'Tell user their mistake
             Exit Sub 'Exit
         End Try
         If (dblGP1W < 0 Or dblGP1W > 1) Or (dblGP2W < 0 Or dblGP2W > 1) Or (dblE1W <= 0 Or dblE1W > 1) Then 'Weight data validation to see if weight is a decimal
-            MessageBox.Show("Please enter a weight between 0 and 1") 'Tell user their mistake
+            MessageBox.Show("Please enter a weight between 0 and 1 in ALL weight fields.") 'Tell user their mistake
             Exit Sub 'Exit
         End If
         dblGP1 *= dblGP1W 'Grading Period 1 is reduced by weight factor
